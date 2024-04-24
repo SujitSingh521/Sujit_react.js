@@ -24,7 +24,7 @@ function Counter()
       <h2 className="count">{count}</h2>
       <div className="buttons">
 
-      <button onClick={increment} id="btn1" >Increment</button>
+     <button onClick={increment} id="btn1" >Increment</button>
         <button onClick={decrement} id="btn2">Decrement</button>
         <button onClick={reset} id="btn3">Reset</button>
 
