@@ -81,15 +81,3 @@ h1 {
 .buttons {
 	padding-bottom: 53px;
 }
-#btn1 {
-	background: rgb(93, 142, 9);
-	border: 2px solid black;
-}
-#btn2 {
-	background: orange;
-	border: 2px solid black;
-}
-#btn3 {
-	background: rgb(218, 66, 20);
-	border: 2px solid black;
-}
