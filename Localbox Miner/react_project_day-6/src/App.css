@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+.theme-toggle-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.theme-toggle-button.light {
+  background-color: black;
+  color: white;
+}
+
+.theme-toggle-button.dark {
+  background-color: white;
+  color: black;
+}
+.theme-toggle-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.theme-toggle-button.light {
+  background-color: black;
+  color: white;
+}
+
+.theme-toggle-button.dark {
+  background-color: white;
+  color: black;
+}
+.app {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0.5em 0;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 1em 0;
+}
+.theme-toggle-button.active {
+	background: teal;
+	color: aliceblue;
+}
