@@ -1,7 +1,8 @@
 function Content() {
     return (
       <div>
-        {/* <!-- Main Content banner --> */}
+        
+        {/* <!-- Main Content and banner --> */}
         <div class="row">
           <div class="col-2">
             <h1>
@@ -19,6 +20,7 @@ function Content() {
             <img src="https://images04.nicepage.com/feature/574731/header-footer-website-builder.jpg" alt="" />
           </div>
         </div>
+        
       </div>
   
     );
