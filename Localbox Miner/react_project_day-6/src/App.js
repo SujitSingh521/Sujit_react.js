@@ -1,5 +1,5 @@
-import React, { useContext } from 'react';
-import { ThemeProvider, ThemeContext } from './components/ThemeContext';
+import React,{useContext} from 'react';
+import {ThemeProvider, ThemeContext} from './components/ThemeContext';
 import ThemeToggleButton from './components/ThemeToggleButton';
 import './App.css';
 
