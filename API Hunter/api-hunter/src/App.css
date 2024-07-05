@@ -1,0 +1,211 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form div {
+  margin-bottom: 15px;
+}
+
+.login-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.go-back-link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.go-back-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.go-back-link a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/* Home container styling */
+.home-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Link styling */
+.home-container a {
+  text-decoration: none;
+  color: #007bff;
+  margin: 10px 0;
+  display: block;
+  font-size: 18px;
+}
+
+.home-container a:hover {
+  text-decoration: underline;
+}
+
+/* Heading styling */
+.home-container h3 {
+	margin: 0;
+	padding: 10px 39px;
+	border: 1px solid #007bff;
+	border-radius: 4px;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.home-container h3:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+
+
+/* Products container styling */
+#products-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+#products-container div {
+  margin-bottom: 15px;
+}
+
+/* Product brand styling */
+#product-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Product image styling */
+#product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Product category styling */
+#product-category {
+  font-size: 18px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* Product details styling */
+#product-details {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Product price styling */
+#product-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #28a745;
+}
+/* Dashboard container styling */
+.dashboard-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.dashboard-container h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Logout button styling */
+.dashboard-container button {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dashboard-container button:hover {
+  background-color: #c82333;
+}
+
+/* User token styling */
+.dashboard-container p {
+  font-size: 16px;
+  color: #555;
+}
+
+.dashboard-container b {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Products table container styling */
+.dashboard-container .products-table-container {
+  display: flex;
+  justify-content: center;
+}
