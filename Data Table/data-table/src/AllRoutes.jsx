@@ -7,8 +7,8 @@ import ProductList from './components/ProductList'
 import DeleteProduct from './components/DeleteProduct'
 
 
-const AllRoutes = () => {
-  return (
+const AllRoutes =()=>{
+  return(
     <div>
          <Routes>
             <Route path='/ProductList' element={<ProductList/>}></Route>
@@ -23,4 +23,4 @@ const AllRoutes = () => {
   )
 }
 
-export default AllRoutes
+export default AllRoutes;

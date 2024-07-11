@@ -3,7 +3,7 @@ import AllRoutes from './AllRoutes'
 import {Link, useParams} from 'react-router-dom'
 import './App.css'
 
-const App =() => {
+const App =()=>{
 
   return (
     <div>
