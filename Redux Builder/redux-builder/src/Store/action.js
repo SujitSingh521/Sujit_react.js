@@ -4,7 +4,7 @@ export const REDUCE ="REDUCE";
 export const SET_THEME ="SET_THEME";
 
 // Action Creators
-export const handleAdd =(value)=>({
+export const handleAdd =(value)=>({  
     type:ADD,
     payload:value
 });

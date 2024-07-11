@@ -14,6 +14,7 @@ const Theme =()=> {
             >
                 Switch to Light
             </button>
+            
             <button
                 onClick={()=>dispatch(handleTheme('dark'))}
                 disabled={theme==='dark'}
